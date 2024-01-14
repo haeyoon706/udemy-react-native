@@ -17,7 +17,7 @@ function GameOverScreen(props) {
       </View>
       <Text style={styles.summaryText}>
         Your phone needed <Text style={styles.highlight}>{roundsNumber}</Text>{" "}
-        rouds to guess ther number{" "}
+        rounds to guess ther number{" "}
         <Text style={styles.highlight}>{userNumber}</Text>.
       </Text>
       <PrimaryButton onPress={onStartNewGame}>Start New Game</PrimaryButton>
