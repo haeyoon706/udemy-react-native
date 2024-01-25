@@ -20,6 +20,7 @@ function ButtomTabNavigator() {
         headerStyle: { backgroundColor: "#351401" },
         headerTintColor: "white",
         tabBarActiveTintColor: "#3f2f25",
+        backgroundColor: "#3f2f25",
       }}
     >
       <ButtonTab.Screen
