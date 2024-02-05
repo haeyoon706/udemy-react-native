@@ -3,6 +3,7 @@ import { createUser } from "../util/auth";
 import LoadingOverlay from "../components/ui/LoadingOverlay";
 import { Alert } from "react-native";
 import { AuthContext } from "../store/auth-context";
+import AuthContent from "../components/Auth/AuthContent";
 
 function SignupScreen() {
   const authCtx = useContext(AuthContext);
