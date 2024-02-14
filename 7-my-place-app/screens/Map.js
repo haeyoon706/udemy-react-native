@@ -36,7 +36,6 @@ function Map({ navigation }) {
   }, [navigation, selectedLocation]);
 
   useLayoutEffect(() => {
-    console.log(navigation);
     navigation.setOptions({
       headerRight: ({ tintColor }) => {
         return (
