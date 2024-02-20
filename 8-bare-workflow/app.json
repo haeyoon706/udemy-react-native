@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "8-bare-workflow",
+    "slug": "8-bare-workflow",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
